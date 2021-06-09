@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> Dynamic Grids using JS</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h2 style="text-align:center">Etch-A-Sketch</h2>
+        <div id = "buttons">
+            <button onclick = "reset()" >Reset</button>
+            <button name = "color_choice" value = "erase" onclick = "erase()">Erase</button>
+            <button name = "color_choice" value = "rainbow" onclick = "set_colors(this)">Rainbow</button>
+            <button name = "color_choice" value = "grayscale" onclick = "set_colors(this)">GrayScale</button>
+            <button name = "color_choice" value = "random" onclick = "set_colors(this)">Random Colors</button>
+        </div>
+        <div id = "container">
+    
+        </div>
+    </body>
+    <script src = "index.js"></script>
+</html>
