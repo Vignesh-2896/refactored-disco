@@ -11,3 +11,5 @@ Following color options are available which can be triggered through the appropr
 2. Grayscale
 3. Random
 4. Yellow (Default color).
+
+[Link Demo](https://vignesh-2896.github.io/refactored-disco/)
